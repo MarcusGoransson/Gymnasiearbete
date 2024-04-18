@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-image: url('bilder/skog1.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .header-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .box {
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .box:nth-child(1) {
+    background-image: url('bilder/skog2.jpg');
+  }
+  
+  .box:nth-child(2) {
+    background-image: url('bilder/skog3.jpg');
+  }
+  
+  .box:nth-child(3) {
+    background-image: url('bilder/skog4.jpg');
+  }
+  
+  .box:nth-child(4) {
+    background-image: url('bilder/skog5.jpg');
+  }
+  
+  .outer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .outer-box {
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .outer-box:nth-child(1) {
+    background-image: url('bilder/skog6.jpg');
+  }
+  
+  .outer-box:nth-child(2) {
+    background-image: url('bilder/skog7.jpg');
+  }
+  
+  .outer-box:nth-child(3) {
+    background-image: url('bilder/skog8.jpg');
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }

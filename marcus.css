@@ -1,0 +1,70 @@
+main{
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    border-radius: 10mm;
+    padding:5px;
+}
+body{
+    background-size: cover;
+    background-color: black;
+}
+h1{
+    font-size: xx-large;
+}
+header{
+    text-align: center;
+    border-radius: 5mm;
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center
+}
+article{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.3rem;
+    border-radius: 5mm;      
+    background-color:green;
+    min-height: 300px;
+}
+article.first{
+    background: url(bilder/skog4.jpg);
+    background-size: cover;
+}
+article.t{
+    width:46%;
+    float:left;
+    margin-left: 1.5rem;
+}
+img{
+    width: 80%;
+}
+
+section.first{
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    padding:5px;
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

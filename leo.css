@@ -1,0 +1,170 @@
+body
+{
+  width: 80vw;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.home {
+  border: solid black 2px;
+}
+
+header
+{
+  text-align: center;
+}
+
+h1
+{
+  font-size: 300%;
+}
+
+.container
+{
+  float: right;
+  align-items: right;
+}
+
+img {
+  width: 80%;
+}
+
+.infoback
+{
+  background: url(bilder/skog4.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  align-items: right;
+  width: 80vw;
+  height: 50vh;
+    
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: 0;
+  
+  color: white;
+}
+
+.info
+{
+  margin-top: 0;
+  margin-right: 0;
+  width: 30vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.section1 {
+  text-align: center;
+}
+
+.section2 {
+  text-align: center;
+  border-bottom: solid black 2px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: space-around;
+  }
+
+.flex-items {
+  width: 30vw;
+  background-color: rgb(245, 245, 245);
+  margin-bottom: 5vh;
+  padding: 1%;
+}
+  
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+  
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+  
+.flex-items:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+  
+.flex-items:nth-child(4) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: normal;
+}
+
+.flex-items2 {
+  background-color: rgb(245, 245, 245);
+  margin-bottom: 5vh;
+  padding: 1%;
+  text-align: start;
+  width: 90%;
+}
+  
+.flex-items2:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+  
+.flex-items2:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+  
+.flex-items2:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 1%;
+}

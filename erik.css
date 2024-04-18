@@ -1,0 +1,70 @@
+*{
+    color: white;
+    text-align: center;
+}
+
+main{
+    width: 75%;
+    background-color: black;
+    margin: auto;
+}
+
+h1{
+    background-color: darkolivegreen;
+}
+
+img {
+    width: 80%;
+}
+
+.box1{
+    width: 100%;
+    background:url(bilder/skog4.jpg);
+}
+
+.box1 > p{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5vh;
+}
+
+.box2{
+    width: 100%;
+    background-color: darkolivegreen;
+}
+
+.box2 > .intbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.type1{
+    width: 25vw;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-bottom: 5%;
+}
+
+.box3{
+    width: 100%;
+    background-color: darkolivegreen;
+}
+
+.box3 > .intbox{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5vh;
+}
+
+.type2{
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-bottom: 5vh;
+}
+
+.footer{
+    display: inline-block;
+}

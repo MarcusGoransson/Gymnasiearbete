@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f9f9f9; /* Same color as articles */
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+}
+header, .article-full-width, footer {
+    width: 80%; /* Match the width of the third section */
+    margin: auto;
+}
+.first-section {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.background-content {
+    background-image: url('bilder/skog4.jpg'); /* Add your image URL here */
+    background-size: cover;
+    width: 75%;
+    height: 400px; /* Adjust height as needed */
+}
+
+.sidebar-article {
+    width: 25%;
+    padding: 20px;
+    background-color: transparent; /* Remove background color */
+    /* Add additional styling as needed */
+}
+
+
+.green-box {
+    background-color: #D5E8D4;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.article-full-width {
+    width: 80%;
+    margin: auto;
+}
+
+.grid-article, .full-width-article {
+    background: #f9f9f9;
+    padding: 20px;
+}
+
+.full-width-article {
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
