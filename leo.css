@@ -24,7 +24,6 @@ h1
 .container
 {
   float: right;
-  align-items: right;
 }
 
 img {
@@ -38,7 +37,6 @@ img {
   background-position: center;
 
   width: 100%;
-  align-items: right;
   width: 80vw;
   height: 50vh;
     
